@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <h1>Contact Page</h1>
+      <form>
+        <p>
+          <label for="name">Name <span aria-label="required">*</span></label>
+          <input type="text" id="t1" required>
+        </p>
+        <p><label for="email">Email <span aria-label="required">*</span></label>
+            <input type="email" id="t2" required>
+        </p>
+        <p><label for="msg">Leave a message describing your issue <span aria-label="required">*</span></label>
+            <textarea name="msg" id="t3" maxlength="140" rows="5" required></textarea>
+        </p>
+         <p> 
+          <label for="priority">Priority</label>
+          <select name="priority" id="p1">
+            <option value=""></option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+          </select>
+        </p>
+        <button>Submit</button>
+      </form>
+  </body>
+</html>

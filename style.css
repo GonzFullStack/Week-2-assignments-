@@ -1,0 +1,12 @@
+form {
+    max-width: fit-content;
+    display: block;
+}
+
+p > label {
+    display: block;
+}
+
+textarea {
+    width: 250px;
+}
