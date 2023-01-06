@@ -1,0 +1,26 @@
+form {
+    max-width: fit-content;
+    display: block;
+}
+
+.title {
+    display: flex;
+    align-content: center;
+    gap: 27em;
+}
+
+.title img {
+    height: 100px;
+}
+
+form {
+    padding-top: 50px;
+}
+
+p > label {
+    display: block;
+}
+
+textarea {
+    width: 350px;
+}
